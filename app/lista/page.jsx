@@ -138,7 +138,7 @@ const handleCategoryChange = async (e) => {
               <td className="px-6 py-4">{product.amount}</td>
               <td className="px-6 py-4">{product.category}</td>
               <td className="px-6 py-4">
-                  <a className="text-blue-500" href={/pages/edit/`${product.id}`}>Edit</a>
+                  <a className="text-blue-500" href={`/pages/edit/${product.id}`}>Edit</a>
               </td>
             </tr>
           ))}

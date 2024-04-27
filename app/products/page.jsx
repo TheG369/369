@@ -14,7 +14,7 @@ export default function Page() {
   const [search, setSearch] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [categories, setCategories] = useState([]);
-  const [theme, setTheme] = useState('dark'); // Cambiado a oscuro por defecto
+  //const [theme, setTheme] = useState('dark'); // Cambiado a oscuro por defecto
   const supabase = createClient();
   const router = useRouter();
 
@@ -101,7 +101,7 @@ export default function Page() {
 
 
   return (
-    <div className={`container mx-auto p-4 ${theme === 'light' ? 'bg-white' : 'bg-gray-900'}`}>
+    <div className={`container mx-auto p-4  bg-gray-900`}>
       <form className="pb-4 bg-white dark:bg-gray-900" onSubmit={handleSearch}>
         <label htmlFor="table-search" className="sr-only">
           Search
