@@ -6,8 +6,7 @@ import { useRouter } from 'next/navigation';
 import { searchProducts, obtenerProductos } from '../accion/accion'
 import { obtenerCategoria } from '../acciones/accionActualizar';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 
 export default function Page() {
   const [products, setProducts] = useState(null);
