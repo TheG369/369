@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router'; // Solo importa useRouter una vez
 import { obtenerProducto, actualizarProducto, obtenerCategoria} from '../../acciones/accionActualizar'
-import Slider from 'react-slick';
+//import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
